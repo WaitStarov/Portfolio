@@ -108,7 +108,7 @@ body {
 }
 
 .card:hover {
-    transform:translateY(-15px) ;
+    transform: translateY(-15px) ;
 }
 
 .card-link {
