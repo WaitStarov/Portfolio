@@ -15,17 +15,18 @@
 
 <body>
     
-    <header class="none">
+    <header class="header" id="header">
         <div class="header ">
-            <h1 class="header-title">Юрий Ключевский</h1>
+            <h1 class="header-title">Иван Снаров</h1>
             <p1 class="header-subtitle">фрилансер, веб-разработчик, создание сайтов</p1>
-            <div class="header-arrow">
+            <a href="#portfolio" class="header-arrow">
                 <img src="./img/header/chevron-down.svg" alt="arrow">
-            </div>
+            </a>
         </div>
     </header>
+    
     <main>
-        <section class="portfolio ">
+        <section class="portfolio" id="portfolio">
             <div class="container">
                 <h2 class="portfolio-header">Портфолио</h2>
 
@@ -48,7 +49,7 @@
                     </div>
                     <div class="card">
                         <a href="#" class="card-link">
-                            <img class="card-img" src="./img/portfolio/3.jpg" alt="Многостроничный сайт">
+                            <img class="card-img" src="./video/cover.jpg" alt="Многостроничный сайт">
                             <h3 class="card-title">Личный сайт </h3>
                             <p>Верстка многостраничного сайта.</p>
                         </a>
@@ -66,14 +67,15 @@
             </div>
         </section>
     </main>
+
     <!-- footer -->
-    <footer class="none">
+    <footer>
         <div class="footer">
             <div class="container">
                 <div class="footer-row">
                     <!-- footer-copiright -->
                     <div class="footer-copyright footer-col">
-                        <div class="footer-copyright-name">© Юрий Ключевский</div>
+                        <div class="footer-copyright-name">© Иван Снаров</div>
                         <p> HTML верстка и разработка сайтов</p>
                     </div>
                     <!-- //footer-copiright -->
@@ -112,6 +114,14 @@
         </div>
     </footer>
     <!-- //footer -->
-</body>
 
+    <!-- Библиотеки и плагин -->
+    <script src="./libs/jquery/jquery-3.6.0.min.js"></script>
+    <script src="./libs/vide/jquery.vide.min.js"></script>
+    
+    <!-- Собственные скрипты и вызовы библиотек -->
+    <script src="./js/main.js"></script>
+
+
+</body>
 </html>
